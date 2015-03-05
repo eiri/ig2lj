@@ -7,7 +7,7 @@ This is a simple python script that automatically translates images posted on [I
 ## Installation
 
 ```bash
-$ git clone
+$ git clone https://github.com/eiri/ig2lj.git
 $ virtualenv venv
 $ source venv/bin/activate
 $ pip install git+https://github.com/eiri/ig2lj.git@master
@@ -29,9 +29,14 @@ optional arguments:
 
 ## Crontab
 
-Edit `croned.sh` to `cd` in the installation directory. Set to run every night with something like `12 1 * * * /Installation/Dir/croned.sh > /tmp/ig2lj.cron.log 2>&1`
+Edit `croned.sh` to `cd` in the installation directory. Set to run every night with something like
+
+`12 1 * * * /Installation/Dir/croned.sh > /tmp/ig2lj.cron.log 2>&1`
 
 ## TODO
+
+  - Store date of the last update and pull all the instagram images since then
+  - Move log and cache location in config file under `[main]` section 
 
 ## Changelog
 

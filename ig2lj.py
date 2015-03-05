@@ -106,7 +106,7 @@ def main():
   if len(post_media) > 0:
     logging.info("Storing cache")
     images_to_cache = set((m['image'] for m in post_media))
-    pickle.dump(images_to_cache, open("cache.p", "wb"))
+    pickle.dump(images_to_cache, open(cache_file, "wb"))
     logging.info('Building post')
     (subject, post, tags) = build_post(cfg, post_media)
     logging.info('Posting to LJ')
