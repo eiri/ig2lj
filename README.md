@@ -39,4 +39,4 @@ Edit `croned.sh` to `cd` in the installation directory. Set to run every night w
 
 ## Licence
 
-[MIT](https://github.com/eiri/ig2lj/blob/master/License)
+[MIT](https://github.com/eiri/ig2lj/blob/master/LICENSE)
