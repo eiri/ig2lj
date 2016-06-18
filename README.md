@@ -1,5 +1,9 @@
 # Instagram to LiveJournal cross-poster
 
+## Update June 1, 2016
+
+Since Instagram is now playing Apple's app store with sandboxing, approving and rest of the dance, this could take more twiggling around to get setup. I haven't tried the new process myself, so no idea how much hustle is it. 
+
 ## Synopsis
 
 This is a simple python script that automatically translates images posted on [Instagram](http://instagram.com) to [LiveJournal](http://www.livejournal.com)
